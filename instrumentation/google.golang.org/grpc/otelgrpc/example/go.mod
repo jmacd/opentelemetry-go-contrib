@@ -7,7 +7,7 @@ replace go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelg
 require (
 	github.com/golang/protobuf v1.4.2
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.12.0
-	go.opentelemetry.io/otel v0.12.0
+	go.opentelemetry.io/otel v0.13.0
 	go.opentelemetry.io/otel/exporters/stdout v0.12.0
 	go.opentelemetry.io/otel/sdk v0.12.0
 	golang.org/x/net v0.0.0-20200707034311-ab3426394381
