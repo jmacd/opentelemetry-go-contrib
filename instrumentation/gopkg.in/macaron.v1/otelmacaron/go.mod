@@ -12,5 +12,5 @@ require (
 	go.opentelemetry.io/contrib v0.12.0
 	go.opentelemetry.io/contrib/propagators v0.12.0
 	go.opentelemetry.io/otel v0.12.0
-	gopkg.in/macaron.v1 v1.3.9
+	gopkg.in/macaron.v1 v1.4.0
 )
