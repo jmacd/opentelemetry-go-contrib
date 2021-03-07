@@ -3,12 +3,14 @@ module go.opentelemetry.io/contrib/propagators/opencensus/examples
 go 1.14
 
 require (
+	github.com/DataDog/sketches-go v0.0.1 // indirect
+	github.com/google/gofuzz v1.1.0 // indirect
 	go.opencensus.io v0.22.6-0.20201102222123-380f4078db9f
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.15.1
 	go.opentelemetry.io/contrib/propagation/opencensus v0.15.1
-	go.opentelemetry.io/otel v0.15.0
-	go.opentelemetry.io/otel/exporters/stdout v0.15.0
-	go.opentelemetry.io/otel/sdk v0.15.0
+	go.opentelemetry.io/otel v0.18.0
+	go.opentelemetry.io/otel/exporters/stdout v0.18.0
+	go.opentelemetry.io/otel/sdk v0.18.0
 	google.golang.org/grpc v1.34.0
 )
 
