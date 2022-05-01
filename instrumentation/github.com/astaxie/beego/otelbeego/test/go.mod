@@ -4,11 +4,11 @@ go 1.15
 
 require (
 	github.com/astaxie/beego v1.12.3
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.1
 	go.opentelemetry.io/contrib/instrumentation/github.com/astaxie/beego/otelbeego v0.25.0
 	go.opentelemetry.io/contrib/propagators/b3 v1.0.0
-	go.opentelemetry.io/otel v1.0.1
-	go.opentelemetry.io/otel/metric v0.24.0
+	go.opentelemetry.io/otel v1.7.0
+	go.opentelemetry.io/otel/metric v0.30.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.0.1
 )
 
