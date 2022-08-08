@@ -7,9 +7,9 @@ require (
 	github.com/stretchr/testify v1.7.1
 	go.opentelemetry.io/contrib/instrumentation/github.com/astaxie/beego/otelbeego v0.32.0
 	go.opentelemetry.io/contrib/propagators/b3 v1.7.0
-	go.opentelemetry.io/otel v1.7.0
-	go.opentelemetry.io/otel/sdk v1.7.0
-	go.opentelemetry.io/otel/sdk/metric v0.30.0
+	go.opentelemetry.io/otel v1.8.0
+	go.opentelemetry.io/otel/sdk v1.8.0
+	go.opentelemetry.io/otel/sdk/metric v0.31.0
 )
 
 replace (
